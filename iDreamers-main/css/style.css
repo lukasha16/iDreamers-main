@@ -700,10 +700,13 @@ width: 160px;
   border-top: 2px solid #00a870;
   margin-top: 70px;
   opacity: 0.4;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
-
+.copyright{
+  margin-left: 60px;
+  margin-right: 60px;
+}
 .profile-head{
   border-color:#00a870;
 
@@ -732,6 +735,7 @@ margin-top: 10px;
   padding-bottom: 5px;
   display: flex;
   justify-content: flex-end;
+  position: relative;
 }
 .dropdown h6{
   margin-top: 10px;
@@ -739,15 +743,24 @@ margin-top: 10px;
   font-weight: 600;
   text-decoration: none !important;
 }
-
-.dropdown ul{
-  display: none;
-    position: absolute;
-    top: 50px;
-    padding-bottom: 15px;
+header .dropdown-menu{
+  position: absolute;
+  background: #fff;
+  z-index: 3;
+  position: absolute;
+  padding:0px 0px 15px 0px;
+  margin:15px 0px 0px 61px !important;
+  box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  width: 250px;
+  border: none;
+  top:66px;
+  right: 0;
+  z-index: 3;
+  display:none;
 }
 
-.dropdown ul::before{
+.dropdown .dropdown-menu::before{
   position: absolute;
   left: 70%;
   top: -9px;
@@ -758,8 +771,9 @@ margin-top: 10px;
   border-right: 9px solid transparent;
   border-bottom: 9px solid gray;
   opacity: 0.4;
+
 }
-.dropdown ul::after{
+.dropdown .dropdown-menu::after{
   position: absolute;
   left: 70%;
   top: -9px;
@@ -769,16 +783,8 @@ margin-top: 10px;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   border-bottom: 9px solid #fff;
-
 }
-header .dropdown-menu{
- margin: 15px 0px 0px 57px !important;
- box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
- border-radius: 10px;
- width: 240px;
- border: none;
 
-}
 .dropdownheader{
  color:#00a870;
 }
@@ -796,6 +802,7 @@ header .dropdown-menu{
   margin-left: 10px;
 
 }
+
 .dropdown-menu p{
   margin-top: 5px;
   font-weight: 600;
@@ -1067,7 +1074,6 @@ color: black;
   font-size: 14px;
   font-weight:600;
   margin-top: 2px;
-  margin-left: 5px;
   display: inline;
 }
 .feed-action{
@@ -1075,7 +1081,7 @@ color: black;
   font-size: 14px;
   font-weight: 500;
   margin-top: -25px;
-  margin-left: 60px;
+  margin-left: 55px;
 }
 
 .card-top .dreamer-atprofile{
@@ -1306,6 +1312,8 @@ padding-top: 40px;
         max-width: 960px;
       }
     }
+
+
     @font-face {
         font-family: 'Isidora Sans', sans-serif;
         src: url('IsidoraSans-Thin.eot');

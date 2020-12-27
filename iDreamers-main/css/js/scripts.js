@@ -10,3 +10,10 @@ document.querySelector('button').addEventListener('click', function(){
         el.classList.add('show-count');
     }
 }, false);
+
+$(document).ready(function(){
+  $('.button10').on('click',function(event){
+    event.preventDefault();
+    $(this).closest('.dropdown').find('.dropdown-menu').toggle();
+  })
+});
