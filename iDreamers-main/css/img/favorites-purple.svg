@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00a870;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-4 {
+        fill: #cda6ce;
+      }
+
+      .cls-5 {
+        fill: #702283;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4658" data-name="Rectangle 4658" class="cls-1" width="30" height="30" transform="translate(244 380)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_4655" data-name="Rectangle 4655" class="cls-1" width="30" height="30" transform="translate(209 215)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_95" data-name="Mask Group 95" class="cls-2" transform="translate(-244 -380)">
+    <g id="Mask_Group_93" data-name="Mask Group 93" class="cls-3" transform="translate(35 165)">
+      <g id="favorite_02" transform="translate(209 215.236)">
+        <g id="Group_7023" data-name="Group 7023">
+          <g id="Group_7022" data-name="Group 7022">
+            <path id="Path_4985" data-name="Path 4985" class="cls-4" d="M27.866,4.441l-.547-.557a7.289,7.289,0,0,0-10.279,0L14.993,5.931,12.946,3.884a7.289,7.289,0,0,0-10.279,0l-.547.557a7.289,7.289,0,0,0,0,10.279l2.433,2.433L14.607,27.229a.547.547,0,0,0,.774,0l0,0,1.735-1.735-3.489-3.5a5.259,5.259,0,0,1,0-7.421l.3-.3a5.259,5.259,0,0,1,7.421,0l.209.209.209-.209a5.262,5.262,0,0,1,6.884-.47A7.3,7.3,0,0,0,27.866,4.441Z"/>
+          </g>
+        </g>
+        <g id="Group_7025" data-name="Group 7025">
+          <g id="Group_7024" data-name="Group 7024">
+            <path id="Path_4986" data-name="Path 4986" class="cls-5" d="M28.77,15.3l-.309-.3a4.226,4.226,0,0,0-5.96,0l-.94.94-.94-.94a4.225,4.225,0,0,0-5.95,0l-.3.3a4.226,4.226,0,0,0,0,5.96l1.326,1.326,5.487,5.487a.547.547,0,0,0,.774,0l0,0,5.487-5.487,1.326-1.326A4.226,4.226,0,0,0,28.77,15.3Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
