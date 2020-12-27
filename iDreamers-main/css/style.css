@@ -848,11 +848,142 @@ color: black;
   text-decoration: none;
   cursor: pointer;
 }
+.buttonok{
+border-radius: 5px;
+padding-left: 20px!important;
+padding-right: 20px!important;
+padding-top: 5px!important;
+padding-bottom: 5px!important;
+}
+.Collection{
+  display: flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+padding-left: 10px;
+}
+.Collection h6{
+color:#702283;
+max-height: 50px;
+max-width: 250px;
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+}
+.leftarrow{
+  display: flex;
+  justify-content:center;
+  flex-direction:row;
+  align-items:center;
+  padding-bottom: 80px;
+  color:#00a870 !important;
+}
+.leftarrow h6{
+  color:#00a870 !important;
+}
+.leftarrow span{
+padding-bottom: 10px;
+padding-right: 5px;
+}
+.Inbox h6{
+  color:#702283;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 40px;
+  max-width: 220px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.Inbox h5{
+margin-bottom: 0px;
+}
+.Inbox{
+  display: flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+  padding-left: 10px;
+}
+.Edit h6{
+  color:#702283;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
+}
+.Edit h5{
+margin-bottom: 0px;
+}
+.Edit{
+  display: flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+  padding-left: 10px;
+}
+::placeholder{
+  opacity: 1;
+}
+.edititle{
+  color:#00a870;
+  margin-top: 0px;
+  margin-right: 10px;
+  color:;
+  padding: 5px !important;
+}
+.Edit input{
+  width: 280px;
+}
+.editdescription{
+  height: 80px;
+}
+.Collection h5{
+ margin-bottom: 0px;
 
+}
+.Collection input{
+outline: 0;
+border-width: 0 0 1px;
 
+}
+.Inbox a{
+  border-radius: 5px;
+  background-color:#00a870;
+  color: white;
+  font-size: 15px;
+  padding-left : 10px;
+  padding-right: 10px;
+  margin-bottom: 55px;
 
-
+}
+.Inbox a:hover{
+  color:#702283;
+}
+.Edit a{
+  border-radius: 5px;
+  background-color:#00a870;
+  color: white;
+  font-size: 15px;
+  padding-left : 10px;
+  padding-right: 10px;
+  margin-bottom: 55px;
+}
+.Collection a{
+  border-radius: 5px;
+  background-color:#00a870;
+  color: white;
+  font-size: 15px;
+  padding-left : 10px;
+  padding-right: 10px;
+  margin-bottom: 55px;
+}
+.Collection a:hover{
+color:#702283;
+}
+.Edit a:hover{
+  color:#702283;
+}
 /* .icon {
   display: inline-block;
 } */
