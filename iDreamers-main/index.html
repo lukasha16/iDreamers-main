@@ -90,6 +90,116 @@
 </div>
 </div>
 <!-- Sign In -->
+<!-- CreateCollection -->
+<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="SignUpBorder">
+        <div class="card-body SignUp">
+             <a data-bs-dismiss="modal" type="button" class="button-close" style="float: right;">x</a>
+
+            <div class="Collection">
+               <h5 class="card-title1 SignUp">Create New Collection</h5>
+            <h6 class="card-text1 SignUp"</st>Collection Name</h6>
+            <input type="text">
+            <a type="button" class="button-signin" data-bs-toggle="modal" data-bs-target="#staticBackdrop4" data-bs-dismiss="modal">Create</a>
+          </div>
+          </div>
+     </div>
+    </div>
+  </div>
+</div>
+<!-- CreateCollection -->
+<!-- Edit -->
+<div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="SignUpBorder">
+        <div class="card-body SignUp">
+             <a data-bs-dismiss="modal" type="button" class="button-close" style="float: right;">x</a>
+
+            <div class="Edit">
+               <h5 class="card-title1 SignUp">Edit Title and Description</h5>
+            <h6 class="edititle"</st>Title</h6>
+            <input type="text" placeholder="Daring Dreams Collection">
+            <h6>Description</h6>
+            <input class="editdescription" type="text" placeholder="Here Goes Summary/Brief that gives Information About the dream and contains four right allaigned text">
+            <a type="button" class="button-signin">Save</a>
+          </div>
+          </div>
+     </div>
+    </div>
+  </div>
+</div>
+<!-- Edit -->
+<!-- Inbox -->
+<div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="SignUpBorder">
+        <div class="card-body SignUp">
+             <a data-bs-dismiss="modal" type="button" class="button-close" style="float: right;">x</a>
+
+            <div class="Inbox">
+               <h5 class="card-title1 SignUp">Check your inbox</h5>
+            <h6>Click the link we sent to user@domain.com to complete your account set-up.</h6>
+            <a type="button" class="buttonok">OK</a>
+          </div>
+          </div>
+     </div>
+    </div>
+  </div>
+</div>
+<!-- Inbox -->
+<!-- SignUpwithEmail -->
+<div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="SignUpBorder">
+        <div class="card-body SignUp">
+             <a data-bs-dismiss="modal" type="button" class="button-close" style="float: right;">x</a>
+            <div class="Collection">
+               <h5 class="card-title1 SignUp">Sign up with email</h5>
+            <h6 class="card-text1 SignUp"</st>Enter your email adress to create an account.</h6>
+              <h6 class="card-text1 SignUp"</st>Your email</h6>
+            <input type="text">
+            <a type="button" class="button-signin" data-bs-toggle="modal" data-bs-target="#staticBackdrop4" data-bs-dismiss="modal">Continue</a>
+            <div class="leftarrow">
+            <span>&#8592;</span>
+            <h6 type="button" class="otheroptions">Other sign up options</h6>
+          </div>
+          </div>
+          </div>
+     </div>
+    </div>
+  </div>
+</div>
+<!-- SignUpwithEmail -->
+<!-- SignInwithEmail -->
+<div class="modal fade" id="staticBackdrop7" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="SignUpBorder">
+        <div class="card-body SignUp">
+             <a data-bs-dismiss="modal" type="button" class="button-close" style="float: right;">x</a>
+            <div class="Collection">
+               <h5 class="card-title1 SignUp">Sign in with email</h5>
+            <h6 class="card-text1 SignUp"</st>Enter the email address associated with your account.</h6>
+              <h6 class="card-text1 SignUp"</st>Your email</h6>
+            <input type="text">
+            <a type="button" class="button-signin" data-bs-toggle="modal" data-bs-target="#staticBackdrop4" data-bs-dismiss="modal">Continue</a>
+            <div class="leftarrow">
+            <span>&#8592;</span>
+            <h6 type="button" class="otheroptions">Other sign in options</h6>
+          </div>
+          </div>
+          </div>
+     </div>
+    </div>
+  </div>
+</div>
+
+<!-- SignINwithEmail -->
     <!-- header -->
     <header id="header">
         <div class="container">
@@ -158,7 +268,7 @@
             <div class="card-content1">
               <h5 class="card-title"</st>Traveler Dreams</h5>
               <p class="card-text crop">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <button type="button" class="btn-more">MORE</button>
+              <button data-bs-toggle="modal" data-bs-target="#staticBackdrop3" data-bs-dismiss="modal" type="button" class="btn-more">MORE</button>
             </div>
           </div>
         </div>
@@ -169,7 +279,7 @@
           <div class="card-content2">
           <h6 class="card-title"</st>Bali, Indonesia</h6>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Here goes summery / brief that gives information about the dream and contains four centred text lines as it showed here. Isidora Sans, Regular, 14pt.  </p>
-          <button type="button" class="btn-more">MORE</button>
+          <button type="button" class="btn-more" data-bs-toggle="modal" data-bs-target="#staticBackdrop5" data-bs-dismiss="modal">MORE</button>
         </div>
       </div>
 
@@ -189,7 +299,7 @@
           <div class="card-content2">
           <h6 class="card-title"</st>Marrakesh, Morocco</h6>
           <p class="card-text">Here goes summery / brief that gives information about the dream and contains four centred text lines as it showed here. Isidora Sans, Regular, 14pt.  </p>
-          <button type="button" class="btn-more">MORE</button>
+          <button type="button" class="btn-more" data-bs-toggle="modal" data-bs-target="#staticBackdrop6" data-bs-dismiss="modal">MORE</button>
         </div>
       </div>
 
@@ -198,7 +308,7 @@
           <div class="card-content2">
           <h6 class="card-title"</st>Machu Picchu, Peru</h6>
           <p class="card-text">Here goes summery / brief that gives information about the dream and contains four centred text lines as it showed here. Isidora Sans, Regular, 14pt.  </p>
-          <button type="button" class="btn-more">MORE</button>
+          <button type="button" class="btn-more" data-bs-toggle="modal" data-bs-target="#staticBackdrop7" data-bs-dismiss="modal">MORE</button>
         </div>
       </div>
     </div>
