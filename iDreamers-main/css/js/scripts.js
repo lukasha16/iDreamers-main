@@ -1,3 +1,4 @@
+console.log('asdasd');
 var el = document.querySelector('.Notif');
 
 document.querySelector('button').addEventListener('click', function(){
@@ -11,9 +12,7 @@ document.querySelector('button').addEventListener('click', function(){
     }
 }, false);
 
-$(document).ready(function(){
-  $('.button10').on('click',function(event){
-    event.preventDefault();
-    $(this).closest('.dropdown').find('.dropdown-menu').toggle();
-  })
+$('buttonfav1').hide();
+        $('favsvg').on('click',function(){
+        	$('favsvg1').toggle()
 });

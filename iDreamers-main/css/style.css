@@ -389,20 +389,6 @@ text-align: center;
    cursor: pointer;
    border-radius: 0px;
  }
- .buttonFav:hover{
-   position: absolute;
-   top: 38%;
-   left: 85%;
-   transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
-   background-color: #00a870;
-   color: white;
-   font-size: 16px;
-   padding: 7px 8px;
-   border: none;
-   cursor: pointer;
-   border-radius: 0px;
- }
 .Logged {
   padding-top: 45px;
 }
@@ -900,7 +886,7 @@ width: 160px;
 
 }
 .browseallnav{
-  margin-top: -30px;
+  margin-top: 20px;
   margin-left: 116px;
   display: inline-block;
   direction: rtl;
