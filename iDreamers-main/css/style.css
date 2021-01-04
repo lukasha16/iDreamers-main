@@ -350,6 +350,59 @@ nav ul li{
 .card-border1 {
   padding: 20px 60px;
 }
+.card-border2{
+padding-left: 186px;
+padding-right: 55px;
+padding-top: 20px;
+}
+.card-border2 button{
+margin-left: 90px;
+margin-top: 10px;
+}
+.card-border2 button:hover{
+
+  color: white;
+  background-color: #00a870;
+  font-weight: 500;
+}
+.card-border2 h5{
+ font-size: 19px;
+
+}
+.card-border2 p{
+font-size: 13px;
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+}
+ .buttonFav{
+   position: absolute;
+   top: 38%;
+   left: 85%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   background-color: white;
+   color: white;
+   font-size: 16px;
+   padding: 7px 9px;
+   border: none;
+   cursor: pointer;
+   border-radius: 0px;
+ }
+ .buttonFav:hover{
+   position: absolute;
+   top: 38%;
+   left: 85%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   background-color: #00a870;
+   color: white;
+   font-size: 16px;
+   padding: 7px 8px;
+   border: none;
+   cursor: pointer;
+   border-radius: 0px;
+ }
 .Logged {
   padding-top: 45px;
 }
@@ -843,13 +896,32 @@ width: 160px;
   direction: rtl;
   padding:0 !important;
   position: fixed;
+  z-index: 1;
 
+}
+.browseallnav{
+  margin-top: -30px;
+  margin-left: 116px;
+  display: inline-block;
+  direction: rtl;
+  padding:0 !important;
+  position: fixed;
+  z-index: 1;
 
 }
 .dreamnav li{
   padding-bottom: 5px;
 }
+.browseallnav li{
+  padding-bottom: 5px;
+}
 .dreamnav a{
+  color: #00a870;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.browseallnav a{
   color: #00a870;
   font-size: 14px;
   font-weight: 600;
@@ -862,11 +934,28 @@ width: 160px;
   text-decoration: none;
   cursor: pointer;
 }
+.browseallnav a:hover{
+  color: #00a870;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 .dreamnav .active {
   font-weight: bold;
 }
+.browseallnav .active {
+  font-weight: bold;
+}
 .dreamnav .active:hover{
+  color: #00a870;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+.browseallnav .active:hover{
   color: #00a870;
   font-size: 14px;
   font-weight: bold;
@@ -883,7 +972,6 @@ width: 160px;
   width: 550px;
 
 }
-
 .card-feed h6{
   color: #702283;
   font-size: 16px;
@@ -1409,7 +1497,21 @@ color:#702283;
 .Edit a:hover{
   color:#702283;
 }
+.beach{
+max-width: 885px;
+height:210px;
+padding-left: 15px;
+margin-top: -25px;
 
+}
+.Browse{
+column-count: 3;
+column-gap:5px;
+}
+.browseimg{
+padding-left: 17px;
+padding-top: 15px;
+}
 /* .icon {
   display: inline-block;
 } */
