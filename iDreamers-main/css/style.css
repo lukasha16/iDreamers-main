@@ -102,7 +102,7 @@ margin-top: 10px;
 header .dropdown-menu{
   position: absolute;
   background: #fff;
-  z-index: 3;
+  z-index: 2;
   position: absolute;
   padding:0px 0px 15px 0px;
   margin:15px 0px 0px 61px !important;
@@ -112,7 +112,6 @@ header .dropdown-menu{
   border: none;
   top:66px;
   right: 0;
-  z-index: 3;
   display:none;
 }
 
@@ -931,9 +930,11 @@ width: 160px;
 
 .dreamnav .active {
   font-weight: bold;
+  margin-right: 1px;
 }
 .browseallnav .active {
   font-weight: bold;
+  margin-right: 1px;
 }
 .dreamnav .active:hover{
   color: #00a870;

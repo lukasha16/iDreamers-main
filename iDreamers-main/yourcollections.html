@@ -22,16 +22,15 @@
             </div>
               <div class="col">
               <div class="profile-menu">
-                <div class="dropdown">
+                <div class="dropdown top-border">
                     <img class="profileiqon" src="css/img/Mask Group 88.svg" alt=""><h6>Brian Thornton</h6>
                     <a class="button10" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" class="profile-head">
                       <img class="Smalldown" src="css/img/small-down.svg" alt="">
                   </a>
                    <a class="button" role="button"> <img class="Notif" src="css/img/Notification_Icon.svg" alt=""><span class="Num">0</span></a>
-
                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                     <li class="dropdownheader"><img class="profileiqon" src="css/img/Mask Group 88.svg" alt=""><h6>Brian Thornton <p class="atprofile">@brianthornton</p></h6></li>
-                     <hr class="profile-hr">
+                     <li class="dropdownheader"><img class="dropdown-profileiqon" src="css/img/Mask Group 88.svg" alt=""><h6>Brian Thornton <p class="atprofile">@brianthornton</p></h6></li>
+                     <hr class="hr4">
                      <li><a class="dropdownitem" href="#">Profile</a></li>
                      <li><a class="dropdownitem" href="#">Settings</a></li>
                      <li><a class="dropdownitem" href="index.html">Sign Out</a></li>
@@ -75,27 +74,30 @@
     </span>
 
     <div class="searchbox">
-      <input type="search" class="search" placeholder="Search">
+      <input type="search" class="search" placeholder="Search..">
       </div>
       </div>
   </nav>
 </header>
 <!-- Your Dreams -->
 <div class="main">
-  <div class="container">
-    <div class="row">
-      <div class="col-auto .mr-auto">
-        <ul class="dreamnav">
-          <li><a class="dreamnav-link" href="indexLogged.html">Dream Feed</a></li>
-          <li><a class="dreamnav-link" href="favorites.html">Favorites</a></li>
-          <li><a class="dreamnav-link active" href="yourcollections.html">Your Collections</a></li>
-          <li><a class="dreamnav-link" href="discover.html">Discover</a></li>
-          <li><a class="dreamnav-link" href="create.html">Create</a></li>
-        </ul>
-      </div>
+<div class="container">
+  <div class="row">
+    <div class="col-auto .mr-auto">
+      <ul class="dreamnav">
+        <li><a class="dreamnav-link" href="indexLogged.html">Dream Feed</a></li>
+        <li><a class="dreamnav-link" href="favorites.html">Favorites</a></li>
+        <li><a class="dreamnav-link active" href="yourcollections.html">Your Collections</a></li>
+        <li><a class="dreamnav-link" href="discover.html">Discover</a></li>
+        <li><a class="dreamnav-link" href="create.html">Create</a></li>
+      </ul>
+    </div>
+    </div>
+    <div class="margin">
 
-      </div>
-      <div class="margin">
+
+
+
 </div>
 </div>
 </div>
@@ -142,24 +144,10 @@
 
 
 
-  <script>
-    document.querySelector(".profile-head ul li").addEventListener("click", function(){
-      this.classList.toggle("activate");
-    });
-  </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   <script type="js/scripts.js"></script>
   <script src="https://unpkg.com/@popperjs/core@2"></script>
-  <script>
-    const button = document.querySelector('#button');
-    const tooltip = document.querySelector('#tooltip');
 
-    // Pass the button, the tooltip, and some options, and Popper will do the
-    // magic positioning for you:
-    Popper.createPopper(button, tooltip, {
-      placement: 'right',
-    });
-  </script>
 </body>
 </html>
