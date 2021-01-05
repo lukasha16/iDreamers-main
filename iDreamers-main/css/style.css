@@ -354,11 +354,8 @@ padding-left: 186px;
 padding-right: 55px;
 padding-top: 20px;
 }
-.card-border2 button{
-margin-left: 90px;
-margin-top: 10px;
-}
-.card-border2 button:hover{
+
+.card-border2 .btn-more:hover{
 
   color: white;
   background-color: #00a870;
@@ -402,6 +399,7 @@ text-align: center;
   -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
   box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
   transition: 0.3s;
+  margin-bottom: 15px;
 }
 .card-content1{
   color: #702283;
@@ -409,22 +407,41 @@ text-align: center;
   justify-content:flex-end;
   flex-direction:column;
   align-items:flex-end;
-  padding: 15px;
+}
+.card-content1 h5{
+  padding: 15px 10px 20px 0px;
 }
 .card-content1 p{
   font-size: 14px;
-  padding-top: 10px;
-  margin-top: 20px;
   text-align: right;
   font-weight: normal;
   color: black;
-  width: 200px;
+  width: 250px;
   height: 98px;
   overflow:hidden;
   text-overflow: clip;
-  margin-bottom:29px;
+  padding: 0px 10px
 }
-.card-content1 button:hover{
+.card-content1 .btn-more{
+  margin: 5px 10px 5px 0px;
+  font-weight: 600;
+  font-size: 12px;
+  background-color: white;
+  padding: 10px 15px;
+  color: #00a870;
+  border: 1px solid #00a870;
+  border-radius: 5px;
+  }
+.btn-more{
+  font-weight: 600;
+  font-size: 12px;
+  background-color: white;
+  padding: 10px 15px;
+  color: #00a870;
+  border: 1px solid #00a870;
+  border-radius: 5px;
+}
+.card-content1 .btn-more:hover{
   color: white;
   background-color: #00a870;
   font-weight: 500;
@@ -448,8 +465,7 @@ text-align: center;
 .card-body2{
   color: #702283;
   padding-top: 16px;
-  margin-bottom: 40px;
-  margin-left: 27px;
+  margin-bottom: 30px;
   width: 206px;
   height: 251px;
 }
@@ -461,33 +477,36 @@ text-align: center;
   font-size: 12px;
   font-weight: normal;
   color: black;
-  padding-top: 5px;
   padding-bottom: 5px;
-  height: 60px;
+  height: 55px;
   overflow:hidden;
   text-overflow: clip;
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .card-content2 h6{
-  color: black;
+  color: #555555;
   font-weight: bold;
-  font-size: 12px;
-  padding: 5px;
+  font-size: 14px;
+  padding-top: 5px;
   white-space: nowrap;
   overflow:hidden;
   text-overflow: ellipsis;
 }
-.btn-more{
+.card-content2 .btn-more{
   font-weight: 600;
   font-size: 12px;
   background-color: white;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 20px;
   color: #00a870;
   border: 1px solid #00a870;
   border-radius: 5px;
-}
-.card-content2 button:hover{
+  margin-top: -3px;
+  }
+
+.card-content2 .btn-more:hover{
   color: white;
   background-color: #00a870;
   font-weight: 500;
@@ -495,7 +514,7 @@ text-align: center;
 
 .card-body2 img {
   max-width: 206px;
-  max-height: 7vw;
+  max-height: 8vw;
   object-fit: cover;
 }
 .card-body1 {
@@ -543,7 +562,7 @@ text-align: center;
   font-size: 16px;
 }
 
-.card-content3 button:hover{
+.card-content3 .btn-more:hover{
   color: white;
   background-color: #00a870;
   font-weight: 400;
@@ -572,14 +591,15 @@ text-align: center;
   display: inline-block;
 }
 
-.card-content4 button{
+.card-content4 .btn-more{
   float: right;
   margin-right: 20px;
   vertical-align: middle;
+
 }
 
 
-.card-content4 button:hover{
+.card-content4 .btn-more:hover{
   color: white;
   background-color: #00a870;
   font-weight: 500;
@@ -654,7 +674,7 @@ max-width: 250px;
   vertical-align: middle;
 
 }
-.card-content5 button {
+.card-content5 .btn-more {
   float: right;
   margin-top:10px;
   font-weight: 600;
@@ -666,7 +686,7 @@ max-width: 250px;
   border-radius: 5px;
   vertical-align: middle;
 }
-.card-content5 button:hover{
+.card-content5 .btn-more:hover{
   color: white;
   background-color: #702283;
 }
@@ -955,6 +975,7 @@ width: 160px;
   margin-right: 57px;
   margin-top: 26px;
 }
+
 .card-feed{
   display: flex;
   width: 550px;
@@ -1225,7 +1246,7 @@ margin-bottom: 10px;
 }
 .favorite-card{
   width:239px;
-  height: 320px;
+  height: 300px;
 }
 .favorite-card img{
   height: 210px;
@@ -1312,14 +1333,16 @@ text-align: center;
 }
 .h6-favorites{
   color : #702283;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 20px;
 }
 .hr-favorites {
   border-top: 1px solid #00a870;
   opacity: 0.4;
 }
 .favorites-new-dreams {
-  margin-top: 36px;
+  margin-top: 20px;
   width:279px;
   position: relative;
 }
@@ -1390,8 +1413,17 @@ text-align: center;
   border: 1px solid #702283;
   border-radius: 5px;
   vertical-align: middle;
-
 }
+.btn-rate{
+  font-weight: 600;
+  font-size: 10px;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  color: #702283;
+  border: 1px solid #702283;
+  border-radius: 5px;
+}
+
 .favorites-new-dreams-rate button:hover{
   color: white;
   background-color: #702283;
