@@ -11,8 +11,6 @@ document.querySelector('button').addEventListener('click', function(){
         el.classList.add('show-count');
     }
 }, false);
-
-
   var image = document.getElementById('favsvg');
 
       image.addEventListener('click', function(){

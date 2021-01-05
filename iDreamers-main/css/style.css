@@ -377,8 +377,22 @@ text-align: center;
 }
  .buttonFav{
    position: absolute;
-   top: 38%;
-   left: 85%;
+   top: 58.8%;
+   left: 90.5%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   background-color: white;
+   color: white;
+   font-size: 16px;
+   padding: 7px 9px;
+   border: none;
+   cursor: pointer;
+   border-radius: 0px;
+ }
+ .buttonFav1{
+   position: absolute;
+   top: 58.8%;
+   left: 91.5%;
    transform: translate(-50%, -50%);
    -ms-transform: translate(-50%, -50%);
    background-color: white;
@@ -1224,9 +1238,11 @@ margin-bottom: 10px;
 .favorite-card{
   width:239px;
   height: 320px;
+  position: relative;
 }
-.favorite-card img{
+.favoritecardimg{
   height: 210px;
+}
 }
 .favorite-card-content h6 p{
 
@@ -1273,9 +1289,6 @@ margin-bottom: 10px;
   margin-top: 36px;
   width:279px;
   position: relative;
-}
-.favorites-new-dreams img{
-  height: 170px;
 }
 .favorites-new-dreams h6{
   color: #702283;
