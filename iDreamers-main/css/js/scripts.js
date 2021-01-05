@@ -12,7 +12,21 @@ document.querySelector('button').addEventListener('click', function(){
     }
 }, false);
 
-$('buttonfav1').hide();
-        $('favsvg').on('click',function(){
-        	$('favsvg1').toggle()
-});
+
+  var image = document.getElementById('favsvg');
+
+      image.addEventListener('click', function(){
+        changeImage();
+      });
+      function changeImage(){
+          image.src = 'css/img/favorites-purple.svg';
+          if (image.src = 'css/img/favorites-purple.svg') {
+
+            image.addEventListener('click', function(){
+              changeImage();
+            });
+            function changeImage(){
+                image.src = 'css/img/favorites-green.svg';
+            };
+          }
+      };
