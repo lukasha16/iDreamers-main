@@ -1578,6 +1578,44 @@ column-gap:5px;
  width: 100%;
 object-fit: cover;
 }
+.dream-title {
+  display: flex;
+}
+.dream-title-content{
+  width:370px;
+  padding-left: 20px;
+}
+.dream-title .card-body{
+  width: 500px;
+}
+.dream-title-name{
+  color: #702283;
+  font-size: 30px;
+  font-weight:bold;
+  margin-top: 30px;
+}
+.dream-title-quote{
+  padding: 10px 0px 10px 10px;
+  color: #4085C6;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+}
+.dream-title-article{
+  font-size: 14px;
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+.dream-title .card-body .socialbuttons{
+  margin-top: 10px;
+  margin-right: 0px;
+}
+.dream-title-hr{
+  border-top: 2px solid #702283;
+  opacity: 0.2;
+  margin: 60px 150px 30px 30px;
+}
 /* .icon {
   display: inline-block;
 } */
@@ -1703,4 +1741,15 @@ padding-top: 40px;
             url('IsidoraSans-Medium.ttf') format('truetype');
         font-weight: 500;
         font-style: normal;
+    }
+    @font-face {
+        font-family: 'Isidora Sans', sans-serif;
+        src: url('IsidoraSans-MediumItalic.eot');
+        src: local('Isidora Sans Medium Italic'), local('IsidoraSans-MediumItalic'),
+            url('IsidoraSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+            url('IsidoraSans-MediumItalic.woff2') format('woff2'),
+            url('IsidoraSans-MediumItalic.woff') format('woff'),
+            url('IsidoraSans-MediumItalic.ttf') format('truetype');
+        font-weight: 500;
+        font-style: italic;
     }
